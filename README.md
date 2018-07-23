@@ -1,4 +1,5 @@
-Aplicativo movil para mejorar el proceso de comunicacion en una Iglesia
+<b>Aplicativo movil para mejorar el proceso de comunicacion en una Iglesia</b>
+<br/>
 Alcance de la aplicacion:
 * Nivel Interno:
   * El usuario al ingresar a la app, pueda ver el menu principal que contendra:
