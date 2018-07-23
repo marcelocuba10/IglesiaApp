@@ -1,6 +1,6 @@
 Aplicativo movil para mejorar el proceso de comunicacion en una Iglesia
 Alcance de la aplicacion:
------Nivel Interno:
+		Nivel Interno:
         El usuario al ingresar a la app, pueda ver el menu principal que contendra:
 	  		- Horarios
 	  			- Misa (los datos seran estaticos ya que los horarios mayormente son fijos en una iglesia)
