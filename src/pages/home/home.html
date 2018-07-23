@@ -1,14 +1,65 @@
 <ion-header>
   <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
     <ion-title>
-      Ionic Blank
+      Bienvenido
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding="3px">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4 style="text-align: center;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/iglesiaapp-fc9da.appspot.com/o/images%2Fhorarios.png?alt=media&token=5cc042cf-ca74-4fc8-9de2-c99ec7228f8d"
+          alt="">
+        <h6 text-center style="margin-top: 2px;">Horarios</h6>
+      </ion-col>
+      <ion-col col-4 style="text-align: center;">
+        <button ion-button clear style="height: 6rem;" (click)="goToNoticias()">
+          <img src="https://firebasestorage.googleapis.com/v0/b/iglesiaapp-fc9da.appspot.com/o/images%2Fanuncios.png?alt=media&token=a00114a6-8fd6-448a-a591-dacd4f70fc7d"
+          alt="">
+        </button>
+        <h6 text-center style="margin-top: 2px;">Anuncios</h6>
+      </ion-col>
+      <ion-col col-4 style="text-align: center;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/iglesiaapp-fc9da.appspot.com/o/images%2Fen-vivo.png?alt=media&token=fcf0b2c5-822a-49b3-b1d4-358489dcf59b"
+          alt="">
+        <h6 text-center style="margin-top: 2px;">Misa en Vivo</h6>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4 style="text-align: center;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/iglesiaapp-fc9da.appspot.com/o/images%2Fsermones.png?alt=media&token=d05fde8b-f60c-436b-82a4-64416edd7eb0"
+          alt="">
+        <h6 text-center style="margin-top: 2px;">Sermones</h6>
+      </ion-col>
+      <ion-col col-4 style="text-align: center;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/iglesiaapp-fc9da.appspot.com/o/images%2Flocalizacion.png?alt=media&token=3822c72c-b7ed-49e0-9b34-f3017e6bef6e"
+          alt="">
+        <h6 text-center style="margin-top: 2px;">Como llegar?</h6>
+      </ion-col>
+      <ion-col col-4 style="text-align: center;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/iglesiaapp-fc9da.appspot.com/o/images%2Fmateriales.png?alt=media&token=44ae6867-7bf5-4653-9d3c-0de777bca754"
+          alt="">
+        <h6 text-center style="margin-top: 2px;">Materiales Religiosos</h6>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4 style="text-align: center;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/iglesiaapp-fc9da.appspot.com/o/images%2Fpedidos.png?alt=media&token=ea202ead-1740-498b-bf2a-e69038ff3c07"
+          alt="">
+        <h6 text-center style="margin-top: 2px;">Pedidos de Oracion</h6>
+      </ion-col>
+      <ion-col col-4 style="text-align: center;">
+          <button ion-button clear style="height: 6rem;" (click)="goToInformacionesGenerales()">
+            <img src="https://firebasestorage.googleapis.com/v0/b/iglesiaapp-fc9da.appspot.com/o/images%2Finformaciones.png?alt=media&token=d1a83adc-d6d8-4364-84b1-2b9c1b8301e3"
+            alt="">
+          </button>
+        <h6 text-center style="margin-top: 2px;">Informaciones</h6>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

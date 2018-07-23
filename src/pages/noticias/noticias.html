@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Noticias
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <ion-list>
+    <button ion-item *ngFor="let note of notes" (click)="goToDetail(note.id)">
+      <!--ngFor es una directiva que funciona con arreglos o un objeto-->
+      {{ note.title }}
+    </button>
+  </ion-list>
+  <div padding>
+    <button ion-button block (click)="createNote()">Crear Nota</button>
+  </div>
+</ion-content>

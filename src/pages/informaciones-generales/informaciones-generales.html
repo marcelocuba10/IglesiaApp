@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Informaciones Generales
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page3">
+  <h4 id="informacionesGenerales-heading2" style="color:#2575DB;">
+    Horarios de Atencion:
+  </h4>
+  <div id="informacionesGenerales-markdown2" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      La iglesia esta abierta desde las
+      <strong>
+        15:00hs
+      </strong>
+      hasta
+      <strong>
+        19:00hs
+      </strong>
+      de lunes a sabado.
+    </p>
+  </div>
+  <h4 id="informacionesGenerales-heading3" style="color:#2575DB;">
+    Telefono:
+  </h4>
+  <div id="informacionesGenerales-markdown3" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Secretaria:
+      <strong>
+        (0631) 22419
+      </strong>
+    </p>
+  </div>
+  <h4 id="informacionesGenerales-heading5" style="color:#2575DB;">
+    Requisitos para ...
+  </h4>
+  <ion-list id="informacionesGenerales-list2">
+    <ion-item color="dark" on-click="goToRequisitosBautismo()" id="informacionesGenerales-list-item5">
+      <ion-icon name="bookmark" item-left></ion-icon>
+      Bautismo
+    </ion-item>
+    <ion-item color="dark" on-click="goToRequisitosComuniN()" id="informacionesGenerales-list-item6">
+      <ion-icon name="bookmark" item-left></ion-icon>
+      Comunión
+    </ion-item>
+    <ion-item color="dark" on-click="goToRequisitosConfirmaciN()" id="informacionesGenerales-list-item7">
+      <ion-icon name="bookmark" item-left></ion-icon>
+      Confirmación
+    </ion-item>
+    <ion-item color="dark" on-click="goToRequisitosMatrimonio()" id="informacionesGenerales-list-item8">
+      <ion-icon name="bookmark" item-left></ion-icon>
+      Matrimonio
+    </ion-item>
+  </ion-list>
+</ion-content>
