@@ -1,14 +1,14 @@
 Aplicativo movil para mejorar el proceso de comunicacion en una Iglesia
 Alcance de la aplicacion:
 * Nivel Interno:
-    * El usuario al ingresar a la app, pueda ver el menu principal que contendra:
-      * Horarios
+  * El usuario al ingresar a la app, pueda ver el menu principal que contendra:
+    * Horarios
       * Misa (los datos seran estaticos ya que los horarios mayormente son fijos en una iglesia)
       * Confesiones (el dia y la hora disponible para confesarse)
       *Secretaria (dia y hora en el cual permanece disponible para cualquier consulta)
-	  		- Anuncios o avisos ( los encargados de la app publicaran avisos que estan planeados en el transcurso de la semana(misas, resos, procesiones))
-	  		- Programaciones o actividades (los encargados de la app publicaran acontecimientos que estan planeados en el transcurso del mes( polladas, retiros, seminarios))
-	  		- Materiales religiosos (libros PDF, cualquier contenido en texto, etc)
+    * Anuncios o avisos (los encargados de la app publicaran avisos que estan planeados en el transcurso de la semana(misas, resos, procesiones))
+    * Programaciones o actividades (los encargados de la app publicaran acontecimientos que estan planeados en el transcurso del mes( polladas, retiros, seminarios))
+    * Materiales religiosos (libros PDF, cualquier contenido en texto, etc)
 	  		- Quienes somos( informacion referente a la iglesia)
 	  		- Videos de reflexiones(biblioteca con videos alojados en youtube, la aplicacion solo va a encaminar al usuario)
 	  		- Pedidos de oracion(formulario pide nombre del quien escribe, su pedido de oracion y un posible captcha)
